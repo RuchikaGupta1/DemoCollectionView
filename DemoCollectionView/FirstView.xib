@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FirstView" id="iCW-4Y-4Bl" customClass="FirstView">
+            <rect key="frame" x="0.0" y="0.0" width="145" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="145" height="60"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lzE-me-RXu">
+                        <rect key="frame" x="0.0" y="0.0" width="145" height="50"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.37563720858617122" blue="0.30731309711129973" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="L9z-HF-I6w"/>
+                            <constraint firstAttribute="width" constant="145" id="ln1-Rf-DYm"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="145" translatesAutoresizingMaskIntoConstraints="NO" id="MbY-Rk-8fi">
+                        <rect key="frame" x="0.0" y="50" width="145" height="10"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="10" id="HN1-oI-FF3"/>
+                            <constraint firstAttribute="width" constant="145" id="xLR-YY-MvO"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" red="0.60362324762408326" green="1" blue="0.91991853965360038" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="lzE-me-RXu" firstAttribute="leading" secondItem="iCW-4Y-4Bl" secondAttribute="leading" id="0mx-Xy-nGe"/>
+                <constraint firstAttribute="trailing" secondItem="lzE-me-RXu" secondAttribute="trailing" id="JBL-VZ-obR"/>
+                <constraint firstItem="lzE-me-RXu" firstAttribute="top" secondItem="iCW-4Y-4Bl" secondAttribute="top" id="RF6-Ai-x66"/>
+                <constraint firstAttribute="bottom" secondItem="MbY-Rk-8fi" secondAttribute="bottom" id="SxE-z4-YXU"/>
+                <constraint firstAttribute="trailing" secondItem="MbY-Rk-8fi" secondAttribute="trailing" id="bsf-6R-fS7"/>
+                <constraint firstItem="MbY-Rk-8fi" firstAttribute="top" secondItem="lzE-me-RXu" secondAttribute="bottom" id="jFv-Mw-iwf"/>
+                <constraint firstItem="MbY-Rk-8fi" firstAttribute="leading" secondItem="iCW-4Y-4Bl" secondAttribute="leading" id="uKn-U5-7gE"/>
+            </constraints>
+            <size key="customSize" width="167" height="162"/>
+            <connections>
+                <outlet property="imageViewHeightConstraint" destination="L9z-HF-I6w" id="y7U-fW-qQp"/>
+                <outlet property="itemDescLbl" destination="MbY-Rk-8fi" id="gkq-3g-9X9"/>
+                <outlet property="itemImageView" destination="lzE-me-RXu" id="Yy2-hE-XsF"/>
+                <outlet property="itemLblHeightConstraint" destination="HN1-oI-FF3" id="TtM-XN-AOC"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>

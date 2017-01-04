@@ -19,6 +19,13 @@
 		8C9E76E419B03B2F00BACA1D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C9E76CC19B03B2F00BACA1D /* UIKit.framework */; };
 		8C9E76EC19B03B2F00BACA1D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C9E76EA19B03B2F00BACA1D /* InfoPlist.strings */; };
 		8C9E76EE19B03B2F00BACA1D /* DemoCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9E76ED19B03B2F00BACA1D /* DemoCollectionViewTests.m */; };
+		8C9E76FA19B03B4C00BACA1D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9E76F819B03B4C00BACA1D /* FirstViewController.m */; };
+		8C9E76FB19B03B4C00BACA1D /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C9E76F919B03B4C00BACA1D /* FirstViewController.xib */; };
+		8C9E76FE19B03C9A00BACA1D /* CHTCollectionViewWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9E76FD19B03C9A00BACA1D /* CHTCollectionViewWaterfallLayout.m */; };
+		8C9E770419B03F3100BACA1D /* FirstView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9E770319B03F3100BACA1D /* FirstView.m */; };
+		8C9E770719B056F100BACA1D /* FirstViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9E770619B056F100BACA1D /* FirstViewHeader.m */; };
+		8C9E770A19B0570200BACA1D /* FirstViewFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9E770919B0570200BACA1D /* FirstViewFooter.m */; };
+		8C9E770C19B062A200BACA1D /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C9E770B19B062A200BACA1D /* FirstView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,18 @@
 		8C9E76E919B03B2F00BACA1D /* DemoCollectionViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoCollectionViewTests-Info.plist"; sourceTree = "<group>"; };
 		8C9E76EB19B03B2F00BACA1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8C9E76ED19B03B2F00BACA1D /* DemoCollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoCollectionViewTests.m; sourceTree = "<group>"; };
+		8C9E76F719B03B4C00BACA1D /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		8C9E76F819B03B4C00BACA1D /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		8C9E76F919B03B4C00BACA1D /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		8C9E76FC19B03C9A00BACA1D /* CHTCollectionViewWaterfallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTCollectionViewWaterfallLayout.h; sourceTree = "<group>"; };
+		8C9E76FD19B03C9A00BACA1D /* CHTCollectionViewWaterfallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTCollectionViewWaterfallLayout.m; sourceTree = "<group>"; };
+		8C9E770219B03F3100BACA1D /* FirstView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstView.h; sourceTree = "<group>"; };
+		8C9E770319B03F3100BACA1D /* FirstView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstView.m; sourceTree = "<group>"; };
+		8C9E770519B056F100BACA1D /* FirstViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewHeader.h; sourceTree = "<group>"; };
+		8C9E770619B056F100BACA1D /* FirstViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewHeader.m; sourceTree = "<group>"; };
+		8C9E770819B0570200BACA1D /* FirstViewFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewFooter.h; sourceTree = "<group>"; };
+		8C9E770919B0570200BACA1D /* FirstViewFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewFooter.m; sourceTree = "<group>"; };
+		8C9E770B19B062A200BACA1D /* FirstView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +126,20 @@
 		8C9E76CE19B03B2F00BACA1D /* DemoCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				8C9E76FC19B03C9A00BACA1D /* CHTCollectionViewWaterfallLayout.h */,
+				8C9E76FD19B03C9A00BACA1D /* CHTCollectionViewWaterfallLayout.m */,
 				8C9E76D719B03B2F00BACA1D /* AppDelegate.h */,
 				8C9E76D819B03B2F00BACA1D /* AppDelegate.m */,
+				8C9E76F719B03B4C00BACA1D /* FirstViewController.h */,
+				8C9E76F819B03B4C00BACA1D /* FirstViewController.m */,
+				8C9E76F919B03B4C00BACA1D /* FirstViewController.xib */,
+				8C9E770219B03F3100BACA1D /* FirstView.h */,
+				8C9E770319B03F3100BACA1D /* FirstView.m */,
+				8C9E770B19B062A200BACA1D /* FirstView.xib */,
+				8C9E770519B056F100BACA1D /* FirstViewHeader.h */,
+				8C9E770619B056F100BACA1D /* FirstViewHeader.m */,
+				8C9E770819B0570200BACA1D /* FirstViewFooter.h */,
+				8C9E770919B0570200BACA1D /* FirstViewFooter.m */,
 				8C9E76DA19B03B2F00BACA1D /* Images.xcassets */,
 				8C9E76CF19B03B2F00BACA1D /* Supporting Files */,
 			);
@@ -220,6 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C9E76D319B03B2F00BACA1D /* InfoPlist.strings in Resources */,
+				8C9E770C19B062A200BACA1D /* FirstView.xib in Resources */,
+				8C9E76FB19B03B4C00BACA1D /* FirstViewController.xib in Resources */,
 				8C9E76DB19B03B2F00BACA1D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,7 +273,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C9E76D919B03B2F00BACA1D /* AppDelegate.m in Sources */,
+				8C9E76FA19B03B4C00BACA1D /* FirstViewController.m in Sources */,
+				8C9E770719B056F100BACA1D /* FirstViewHeader.m in Sources */,
+				8C9E770419B03F3100BACA1D /* FirstView.m in Sources */,
+				8C9E770A19B0570200BACA1D /* FirstViewFooter.m in Sources */,
 				8C9E76D519B03B2F00BACA1D /* main.m in Sources */,
+				8C9E76FE19B03C9A00BACA1D /* CHTCollectionViewWaterfallLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +481,7 @@
 				8C9E76F319B03B2F00BACA1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C9E76F419B03B2F00BACA1D /* Build configuration list for PBXNativeTarget "DemoCollectionViewTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +490,7 @@
 				8C9E76F619B03B2F00BACA1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
